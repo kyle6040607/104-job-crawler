@@ -1,0 +1,31 @@
+# 金鑰與本機設定，絕對不要進版控
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Python 虛擬環境與快取
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 建置與套件輸出
+build/
+dist/
+*.egg-info/
+
+# 編輯器與作業系統暫存檔
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 爬蟲與 Excel 暫存輸出
+104_*.xlsx
+~$*.xlsx
